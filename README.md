@@ -13,6 +13,16 @@ for the actual playback (FFmpeg + SDL2 + KMSDRM), plus
 [comitup](https://davesteele.github.io/comitup/) so a fresh Pi can be onboarded
 to WiFi without a keyboard.
 
+## ⬇ Download the prebuilt image
+
+👉 **[pi5_video_looper.img.xz](https://archive.org/download/pi5_video_looper/pi5_video_looper.img.xz)** (~2.3GB, hosted on Internet Archive)
+
+Item page (for verification / mirrors): https://archive.org/details/pi5_video_looper
+
+Flash it with Raspberry Pi Imager (or balenaEtcher / `dd`) to a 32GB+ SD card,
+insert into a Pi 5, power on. Default credentials: `pi` / `modernlove` —
+change immediately with `passwd` after first boot.
+
 ## What you get
 
 - 4K-capable video playback with hardware acceleration on Pi 5
@@ -54,19 +64,9 @@ reboot again — it plays.
 
 ## Install — flash the prebuilt image
 
-If you'd rather skip the build step, download the prebuilt image from the
-Internet Archive:
-
-**[pi5_video_looper.img.xz](https://archive.org/download/pi5_video_looper/pi5_video_looper.img.xz)** (~2.3GB)
-
-Item page: https://archive.org/details/pi5_video_looper
-
-Flash it to a 32GB+ SD card with Raspberry Pi Imager (or balenaEtcher / `dd`).
-Insert into a Pi 5, power it on, and drop a video into `/home/pi/video`
-over SSH or by mounting the SD card on another machine.
-
-Default credentials: `pi` / `modernlove` — **change the password immediately**
-with `passwd` after first boot.
+See the **[Download](#-download-the-prebuilt-image)** section above for the
+image URL. Flash it, boot, drop videos into `/home/pi/video` over SSH or by
+mounting the SD card on another machine.
 
 ## Adding videos
 
