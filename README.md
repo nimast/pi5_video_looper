@@ -54,14 +54,19 @@ reboot again — it plays.
 
 ## Install — flash the prebuilt image
 
-If you'd rather skip the build step, download `pi5_video_looper.img.xz`
-from [Releases](https://github.com/nimast/pi5_video_looper/releases) and
-flash it with Raspberry Pi Imager (or `dd`/`Etcher`). Then drop a video
-into `/home/pi/video` over SSH or by mounting the SD card and writing
-to the `video` folder on the root partition.
+If you'd rather skip the build step, download the prebuilt image from the
+Internet Archive:
+
+**[pi5_video_looper.img.xz](https://archive.org/download/pi5_video_looper/pi5_video_looper.img.xz)** (~2.3GB)
+
+Item page: https://archive.org/details/pi5_video_looper
+
+Flash it to a 32GB+ SD card with Raspberry Pi Imager (or balenaEtcher / `dd`).
+Insert into a Pi 5, power it on, and drop a video into `/home/pi/video`
+over SSH or by mounting the SD card on another machine.
 
 Default credentials: `pi` / `modernlove` — **change the password immediately**
-with `passwd`.
+with `passwd` after first boot.
 
 ## Adding videos
 
