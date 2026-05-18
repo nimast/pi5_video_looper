@@ -11,7 +11,7 @@
 
 set -euo pipefail
 
-REPO_URL="${PLAYER_REPO_URL:-https://github.com/benoitliard/video-player.git}"
+REPO_URL="${PLAYER_REPO_URL:-https://github.com/nimast/video-player.git}"
 TARGET_USER="${TARGET_USER:-pi}"
 HOME_DIR="/home/${TARGET_USER}"
 PLAYER_DIR="${HOME_DIR}/video-player"
